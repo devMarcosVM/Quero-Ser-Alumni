@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio 8</title>
+</head>
+<body>
+    <h1>Quero ser Alumni</h1>
+</body>
+<script>
+	var informações = 'Marcos, número: 0000-00000, Brasiliense, feliz, solteiro , oi , ei ';
+	var expressao  = new RegExp("oi");
+
+	var resultado = expressao.exec(informações);
+	console.log(resultado[0]);
+</script>
+</html>
